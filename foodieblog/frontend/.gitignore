@@ -1,0 +1,44 @@
+# Ignore node_modules and build artifacts
+node_modules/
+dist/
+build/
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor & IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency directories
+target/
+out/
+bin/
+lib/
+
+# Ignore Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Spring Boot specific files
+*.pid
+*.hprof
+hs_err_pid
